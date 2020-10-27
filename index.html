@@ -12,10 +12,28 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: '',
-      loadSidebar:true,
-      loadNavbar:true,
+     alias: {},
+    auto2top: true,
+    coverpage: false,
+    executeScript: true,
+    loadSidebar: true,
+    loadNavbar: true,
+    mergeNavbar: true,
+    maxLevel: 4,
+    subMaxLevel: 2,
+    name: 'JSBox',
+    search: {
+      noData: {
+        '/en/': 'No results :(',
+        '/': '没有结果 :('
+      },
+      paths: 'auto',
+      placeholder: {
+        '/en/': 'Search',
+        '/': '搜索'
+      }
+    },
+    formatUpdated: '{MM}/{DD} {HH}:{mm}',
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
