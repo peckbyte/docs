@@ -1,6 +1,5 @@
-- Getting started
+- 综述
     - [首页](README.md)
-    - [指南](guide.md)
 -  数据库
     - [食物](database/foods.md)
 - 组件
