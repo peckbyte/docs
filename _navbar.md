@@ -1,6 +1,2 @@
-* Getting started
-	*[首页](README.md)
-	*[指南](guide.md)
+- [EN / **CN**](/en/)
 
-* Configuration
-	*[测试](test.md)
